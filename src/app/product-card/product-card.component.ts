@@ -19,6 +19,7 @@ export class ProductCardComponent {
 
   }
   AddToCart(id:number){
+    console.log(id);
     this.router.navigate(['cart',id]);
   }
 }
