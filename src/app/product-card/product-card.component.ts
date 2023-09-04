@@ -18,4 +18,7 @@ export class ProductCardComponent {
     this.router.navigate(['product-details',id]);
 
   }
+  AddToCart(id:number){
+    this.router.navigate(['cart',id]);
+  }
 }
